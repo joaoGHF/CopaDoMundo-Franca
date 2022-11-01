@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.container-tabela {
+    display: inline-block;
+    width: 49vw;
+    height: 98vh;
+    padding: 1vh 1vw 0 1vw;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    overflow: hidden;
+}
+
+.container-tabela tr {
+    margin-bottom: 2px;
+    width: 42vw;
+    display: block;
+    border: solid 1px black;
+    background-color: whitesmoke;
+}
+
+.coluna-1 {
+    border-right: solid 1px black;
+    padding: 3px;
+}
+
+.coluna-2 {
+    padding: 3px;
+}
+
+.linha-cor {
+    background-color: lightgrey !important;
+}
+
+.linha-ocultar {
+    opacity: 0;
+    transition: 400ms;
+}
